@@ -1,6 +1,7 @@
 # HSDGNN
 This is the implementation of our paper entitled "Graph Neural Networks for Multivariate Time-Series Forecasting via Learning Hierarchical Spatiotemporal Dependencies".
 ![image text](https://github.com/zhourongleiden/HSDGNN/blob/main/Framework.png)
+Figure: Overview of the proposed HSDGNN model. Herein, the model consists of five modules: Intra-dependency Learning, Temporal-dependency Learning, Dynamic Topology Generation,Spatio-dependency learning, and Output Module.
 ## Contents
 ### folder
 * config_file: the general parameter configuration of our model on different datasets <br>  
