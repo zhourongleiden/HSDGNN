@@ -11,7 +11,8 @@ This is the implementation of our paper entitled "Graph Neural Networks for Mult
 * main.py: the script for training <br>
 * environment.yml: basic environment configuration
 ## Data
-Please download the data for experiment from Google Drive, unzip the file to create the "data" folder.
+Please download the data for experiment from [Google Drive](https://drive.google.com/file/d/1qoGP0L3ua4ZAwLf_jeBNJoBo69pqAmvV/view?usp=share_link), 
+unzip the file to create the "data" folder.
 ## Environment
 * Install conda environment from .yml file  
 `conda env create --file environment.yml`
