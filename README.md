@@ -14,9 +14,9 @@ This is the implementation of our paper entitled "Graph Neural Networks for Mult
 Please download the data for experiment from [Google Drive](https://drive.google.com/file/d/1qoGP0L3ua4ZAwLf_jeBNJoBo69pqAmvV/view?usp=share_link), 
 unzip the file to create the "data" folder.
 ## Environment
-* Install conda environment from .yml file  
+* Please install conda environment from .yml file  
 `conda env create --file environment.yml`
 ## Model training
-Run `python main.py --dataset dataset_name` to train a HSDGNN model from scratch <br>
+Plese run `python main.py --dataset dataset_name` to train a HSDGNN model from scratch <br>
 (Please choose the "dataset_name" from {PEMSD4, PEMSD5, PEMSD8, PEMSD11, PSML})
 
