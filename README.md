@@ -9,7 +9,11 @@ This is the implementation of our paper entitled "Graph Neural Networks for Mult
 * model: implementation of the HSDGNN model <br>
 ### File
 * main.py: the script for training <br>
+* environment.yml: basic environment configuration
 ## Environment
 * Install conda environment from .yml file  
 `conda env create --file environment.yml`
+## Model training
+Run `python main.py --dataset dataset_name` to train a HSDGNN model from scratch
+(Please choose the "dataset_name" from {PEMSD4, PEMSD5, PEMSD8, PEMSD11, PSML})
 
