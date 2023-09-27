@@ -1,5 +1,5 @@
 # HSDGNN
-This is the implementation of our paper entitled "Graph Neural Networks for Multivariate Time-Series Forecasting via Hierarchically Spatiotemporal Dependencies Learning".
+This is the implementation of our paper entitled "Graph Neural Networks for Multivariate Time-Series Forecasting via Hierarchical Spatiotemporal Dependencies Learning".
 ![image text](https://github.com/zhourongleiden/HSDGNN/blob/main/Framework.png)
 ## Contents
 ### folder
