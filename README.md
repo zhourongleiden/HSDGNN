@@ -14,6 +14,6 @@ This is the implementation of our paper entitled "Graph Neural Networks for Mult
 * Install conda environment from .yml file  
 `conda env create --file environment.yml`
 ## Model training
-Run `python main.py --dataset dataset_name` to train a HSDGNN model from scratch
+Run `python main.py --dataset dataset_name` to train a HSDGNN model from scratch <br>
 (Please choose the "dataset_name" from {PEMSD4, PEMSD5, PEMSD8, PEMSD11, PSML})
 
