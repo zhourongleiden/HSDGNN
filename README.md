@@ -6,6 +6,7 @@ This is the implementation of our paper entitled "Graph Neural Networks for Mult
 * experiment: to store the model after training <br>
 * lib: scripts related to data processing, evaluation metrics, and initialization <br>
 * model: implementation of the HSDGNN model <br>
+-------------------------------------------------
 * main.py: the script for training <br>
 ## Environment
 * Install conda environment from .yml file  
