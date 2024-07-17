@@ -1,7 +1,7 @@
 # HSDGNN
 This is the implementation of our paper entitled "Graph Neural Networks for Multivariate Time-Series Forecasting via Learning Hierarchical Spatiotemporal Dependencies".  <br>
 ![image text](https://github.com/zhourongleiden/HSDGNN/blob/main/Framework.png)  <br>
-Figure: Overview of the proposed HSDGNN model. Herein, the model consists of five modules: Intra-dependency Learning, Temporal-dependency Learning, Dynamic Topology Generation,Spatio-dependency learning, and Output Module.
+Figure: Overview of the proposed HSDGNN model. Herein, the model consists of five modules: Intra-dependency Learning, Temporal-dependency Learning, Dynamic Topology Generation, Spatio-dependency Learning, and Output Module.
 ## Contents
 ### folder
 * config_file: the general parameter configuration of our model on different datasets <br>  
@@ -13,10 +13,10 @@ Figure: Overview of the proposed HSDGNN model. Herein, the model consists of fiv
 * main.py: the script for training <br>
 * environment.yml: basic environment configuration
 ## Data
-Please download the data for experiment from [Google Drive](https://drive.google.com/file/d/1qoGP0L3ua4ZAwLf_jeBNJoBo69pqAmvV/view?usp=share_link), 
+Please download the data for the experiment from [Google Drive](https://drive.google.com/file/d/1p_b8y9Cl2v-hZYPTqVmV9YvTq9YqvYe1/view?usp=share_link), 
 unzip the file to create the "data" folder.
 ## Environment
-* Please install conda environment from .yml file  
+* Please install the conda environment from the .yml file  
 `conda env create --file environment.yml`
 ## Model training
 Please run `python main.py --dataset dataset_name` to train a HSDGNN model from scratch <br>
