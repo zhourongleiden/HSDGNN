@@ -24,6 +24,12 @@ def load_st_dataset(dataset):
         data_path = os.path.join('./data/PSML/PSML.npz')
         data = np.load(data_path)['data'][...,0:3]
         data = np.transpose(data, (1,0,2))
+    elif dataset == 'NSRDB':
+        data_path = os.path.join('./data/NSRDB/NSRDB.npz')
+        data = np.load(data_path)['data']
+        data[:,:,[0,-2]] = data[:,:,[-2,0]]
+        data = np.transpose(data, (1,0,2)) 
+        data = data[-data.shape[0]//12:,:,:]  
     else:
         raise ValueError
     print('Load %s Dataset shaped: ' % dataset, data.shape, data.max(), data.min(), data.mean(), np.median(data))
