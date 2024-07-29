@@ -20,5 +20,5 @@ unzip the file to create the "data" folder.
 `conda env create --file environment.yml`
 ## Model training
 Please run `python main.py --dataset dataset_name` to train a HSDGNN model from scratch <br>
-(Please choose the "dataset_name" from {PEMSD4, PEMSD5, PEMSD8, PEMSD11, PSML})
+(Please choose the "dataset_name" from {PEMSD4, PEMSD5, PEMSD8, PEMSD11, PSML, NSRDB})
 
