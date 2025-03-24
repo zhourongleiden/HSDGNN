@@ -21,4 +21,14 @@ unzip the file to create the "data" folder.
 ## Model training
 Please run `python main.py --dataset dataset_name` to train a HSDGNN model from scratch <br>
 (Please choose the "dataset_name" from {PEMSD4, PEMSD5, PEMSD8, PEMSD11, PSML, NSRDB})
-
+## Citation
+If you find this repository useful, please cite:
+@article{zhou2025graph,
+  title={Graph Neural Networks for multivariate time-series forecasting via learning hierarchical spatiotemporal dependencies},
+  author={Zhou, Zhou and Basker, Ronisha and Yeung, Dit-Yan},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={147},
+  pages={110304},
+  year={2025},
+  publisher={Elsevier}
+}
